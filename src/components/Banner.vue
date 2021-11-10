@@ -1,6 +1,11 @@
 <template>
-  <div>
-
+  <div id="main">
+    <a href="https://www.penalty.com.ar/deportes/futbol-equipamiento-entrenamiento/" target="_blank">
+      <h3>Penalty Bravo xxi</h3>
+      <img src="../assets/img/penalty_bravo.png" alt="Banner Pelota">
+      <p id="description">Pelota De Futbol Campo Penalty Bravo Xxi</p>
+      <p><span>¡COMPRAR!</span></p>
+      </a>
   </div>
 </template>
 
@@ -11,5 +16,5 @@ export default {
 </script>
 
 <style scoped>
-@import "../assets/css/styles.css";
+@import "../assets/css/banner.css";
 </style>
