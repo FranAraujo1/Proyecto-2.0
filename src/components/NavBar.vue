@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <nav class="navbar">
       <div class="navbar__container">
         <a v-on:click="$emit('menuEvent', 'main')" id="navbar__logo">
@@ -29,7 +30,7 @@
             <a class="navbar__links" v-on:click="$emit('menuEvent', 'sedes')">{{ sedes }}</a>
           </li>
           <li class="navbar__btn">
-            <button class="button" ><a href="#" id="ins">{{ sesion }}</a></button>
+            <button class="button" ><a v-on:click="$emit('menuEvent', 'login')" id="ins">{{ sesion }}</a></button>
           </li>
         </ul>
 
@@ -50,7 +51,7 @@ export default {
       nosotros: "Nosotros",
       postulate: "Postulate",
       sedes: "Sedes",
-      sesion: "Iniciar Sesión"
+      sesion: "Iniciar Sesión",
     }
   }
 }
