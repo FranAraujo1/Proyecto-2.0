@@ -11,8 +11,10 @@
         <Postulate v-if="menu.postulate"/>
         <Sedes v-if="menu.sedes"/>
         <Login v-if="menu.login"/>
-
+        <inscribite v-if="menu.inscribite"/>
       </div>
+
+
 
       <Banner/>
 
@@ -37,6 +39,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Postulate from "./components/Postulate";
 import Login from "./components/Login";
+import inscribite from "./components/inscribite";
 
 
 
@@ -53,6 +56,7 @@ export default {
     Banner,
     Postulate,
     Login,
+    inscribite,
   },
   data(){
     return {
@@ -64,6 +68,7 @@ export default {
         postulate:false,
         sedes: false,
         login: false,
+        inscribite: false,
       }
     }
   },

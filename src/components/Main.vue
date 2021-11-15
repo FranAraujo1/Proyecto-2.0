@@ -6,7 +6,7 @@
           <h1>NUEVA MANERA</h1>
           <h2>DE VIVIR EL FÚTBOL</h2>
           <p>Conocé nuestro servicio</p>
-          <button class="main__btn" id="main__btn"><a href="#">Inscribírse</a></button>
+          <button class="main__btn" id="main__btn"><a v-on:click="$emit('menuEvent','inscribite')">Inscribírse</a></button>
         </div>
         <div class="main__img--container">
           <img src="../assets/img/pic5.svg" alt="pic" id="main__img">
