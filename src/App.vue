@@ -26,8 +26,7 @@
   </div>
 </template>
 
-<script src="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<script>
 
 import Main from './components/Main';
 import NavBar from "./components/NavBar";
@@ -38,6 +37,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Postulate from "./components/Postulate";
 import Login from "./components/Login";
+
 
 
 

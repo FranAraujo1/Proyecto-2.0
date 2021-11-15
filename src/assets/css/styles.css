@@ -33,7 +33,7 @@
 }
 
 #navbar__logo {
-    color: white;
+    color:rgb(16, 112, 12);
     background-color: rgb(16, 112, 12);
     background-image: linear-gradient(to top, white 0%, rgb(16, 112, 12) 60%);
     background-size: 100%;
@@ -50,6 +50,7 @@
 
 .fa-futbol {
     margin-right: 0.5rem;
+
 }
 
 .navbar__menu {
