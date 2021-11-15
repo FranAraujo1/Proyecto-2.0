@@ -17,14 +17,14 @@
     <div class="services">
       <h1>{{ enterate }}</h1>
       <div class="services__container">
-        <div class="services__card">
+        <div class="services__card" v-on:click="$emit('menuEvent','reservas')">
           <h2>Hacé tu Reserva</h2>
           <p>Fechas y Horarios</p>
           <button>
             <a class="comenzar" v-on:click="$emit('menuEvent','reservas')"> Comenzar </a>
           </button>
         </div>
-        <div class="services__card">
+        <div class="services__card" v-on:click="$emit('menuEvent','postulate')">
           <h2>Postulate</h2>
           <p>Unite a la comunidad</p>
           <button>

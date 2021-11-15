@@ -89,7 +89,7 @@ export default {
       face:"Facebook",
       you:"Youtube",
       twitter:"Twitter",
-      tik:"TikTok,",
+      tik:"TikTok",
 
       ldt:"LÍNEA DE TRES",
       derechos:"LDT 2021. Todos los derechos reservados"
