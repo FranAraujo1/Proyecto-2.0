@@ -7,7 +7,7 @@
           <p>{{ registrate }}</p>
         </div>
         <div class="main__img--container">
-          <img src="../assets/img/pic5.svg" alt="pic" id="main__img">
+          <img src="../assets/img/App.svg" alt="pic" id="main__img">
         </div>
       </div>
     </div>

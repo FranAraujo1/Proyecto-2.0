@@ -15,19 +15,19 @@
 
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a class="navbar__links" v-on:click="$emit('menuEvent', 'main')" >{{ inicio }}</a>
+            <a class="navbar__links anim-middleout" v-on:click="$emit('menuEvent', 'main')" >{{ inicio }}</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__links" v-on:click="$emit('menuEvent', 'reservas')">{{ reservas }}</a>
+            <a class="navbar__links anim-middleout" v-on:click="$emit('menuEvent', 'reservas')">{{ reservas }}</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__links" v-on:click="$emit('menuEvent', 'nosotros')">{{ nosotros }}</a>
+            <a class="navbar__links anim-middleout" v-on:click="$emit('menuEvent', 'nosotros')">{{ nosotros }}</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__links" v-on:click="$emit('menuEvent', 'postulate')">{{ postulate }}</a>
+            <a class="navbar__links anim-middleout" v-on:click="$emit('menuEvent', 'postulate')">{{ postulate }}</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__links" v-on:click="$emit('menuEvent', 'sedes')">{{ sedes }}</a>
+            <a class="navbar__links anim-middleout" v-on:click="$emit('menuEvent', 'sedes')">{{ sedes }}</a>
           </li>
           <li class="navbar__btn">
             <button class="button" ><a v-on:click="$emit('menuEvent', 'login')" id="ins">{{ sesion }}</a></button>
@@ -42,7 +42,9 @@
 <script>
 export default {
   name: "NavBar",
-  methods: {},
+  methods: {
+
+  },
   data (){
     return{
       ldt: "LÍNEA DE TRES",
@@ -52,7 +54,7 @@ export default {
       postulate: "Postulate",
       sedes: "Sedes",
       sesion: "Iniciar Sesión",
-    }
+    };
   }
 }
 </script>

@@ -1,9 +1,11 @@
 .sedes {
     background-color: #141414;
+
 }
 
 .sedes h1 {
     font-size: 3rem;
+    margin-top: ;
     text-align: center;
     background-color: #af7c0dcb;
     background-image: linear-gradient(to top, white 0%, #af7c0dcb 70%);
@@ -36,24 +38,7 @@
     color: antiquewhite;
 }
 
-.box_uno {
-    background-color: rgb(60, 141, 22);
-    padding: 40px;
-    margin: 40px;
-    width: 1000px;
-    height: 300px;
-    border-style: groove;
-    border-radius: 15px;
-}
-.box_dos {
-    background-color: rgb(60, 141, 22);
-    padding: 40px;
-    margin: 40px;
-    width: 1000px;
-    height: 240px;
-    border-style: groove;
-    border-radius: 5%;
-}
+
 
 .box_tres {
     background-color: rgb(60, 141, 22);
@@ -69,8 +54,8 @@
     padding: 40px;
     margin: 40px;
     width: 1000px;
-    height: 230px;
-    border-radius: 5%;
+    height: 300px;
+    border-radius: 15px;
 }
 
 figcaption {

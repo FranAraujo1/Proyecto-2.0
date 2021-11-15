@@ -109,6 +109,22 @@
     transition: all 0.3s ease;
 }
 
+.anim-middleout:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #34495e;
+    margin: auto;
+    margin-top: 10px;
+    transition: all .5s ease;
+}
+
+.active:after,
+.anim-middleout:hover:after {
+    width: 100%;
+}
+
 .navbar__links:hover {
     background: rgb(16, 112, 12);
     transition: all 0.3s ease;

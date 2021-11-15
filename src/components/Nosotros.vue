@@ -7,7 +7,7 @@
           <p>¡CONOCÉNOS!</p>
         </div>
         <div class="main__img--container">
-          <img src="../assets/img/pic5.svg" alt="pic" id="main__img">
+          <img src="../assets/img/nosotros2.svg" alt="pic" id="main__img">
         </div>
       </div>
     </div>

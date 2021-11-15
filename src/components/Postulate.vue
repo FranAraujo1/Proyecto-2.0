@@ -7,7 +7,7 @@
           <p>{{datos}}</p>
         </div>
         <div class="main__img--container">
-          <img src="../assets/img/pic5.svg" alt="pic" id="main__img">
+          <img src="../assets/img/form.svg" alt="pic" id="main__img">
         </div>
       </div>
     </div>
@@ -48,8 +48,6 @@
           <div class="form-validation">
             <label class="control-label">Teléfono:</label>
             <input type="tel" class="form-control" name="tel" id="tel">
-            <br>
-            <small>EJ: 11-2345-6789</small>
           </div>
 
 
