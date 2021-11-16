@@ -9,7 +9,7 @@
         <form action="javascript:Validate(id)" method="GET" class="modal-form" id="form">
           <h1>{{unite}}</h1>
           <div class="form-validation">
-            <input type="text" class="modal-input" id="name" name="name" placeholder="Ingresá tu nombre">
+            <input type="text" required v-model="name" class="modal-input" id="name" name="name" placeholder="Ingresá tu nombre">
             <p>Error Message</p>
           </div>
           <div class="form-validation">
@@ -36,12 +36,25 @@
 
 <script>
 export default {
-  name: "inscribite"
+  name: "inscribite",
   methods: {},
   data () {
     return {
      unite: "¡Unite a nosotros hoy! Crea tu cuenta completando la información de abajo.",
     }
+  }
+}
+data() {
+  return {
+    name: "",
+  }
+},
+methods: {
+  altaNombre() {
+    axios.post("http://localhost:5000/api/v1/nombre",
+        {
+          name: this.name,
+        }
   }
 }
 </script>
