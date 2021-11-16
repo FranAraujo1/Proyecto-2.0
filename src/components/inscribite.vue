@@ -1,12 +1,12 @@
 <template>
   <div class="modal" id="email-modal">
     <div class="modal-content">
-      <span class="close-btn">&times;</span>
+
       <div class="modal-content-left">
-        <img src="./img/pic1.svg" alt="" id='modal-img'>
+        <img src="../assets/img/pic1.svg" alt="" id='modal-img'>
       </div>
       <div class="modal-content-right">
-        <form action="javascript:Validate(id)" method="GET" class="modal-form" id="form">
+        <form  method="GET" class="modal-form" id="form">
           <h1>{{unite}}</h1>
           <div class="form-validation">
             <input type="text" required v-model="name" class="modal-input" id="name" name="name" placeholder="Ingresá tu nombre">
@@ -27,7 +27,9 @@
             <p>Error Message</p>
           </div>
           <input type="submit" class="modal-input-btn" value="Sign Up">
-          <span class="modal-input-login">¿Ya tenes una cuenta? Iniciá sesión <a href="#">acá</a></span>
+          <div class="modal-input-login">¿Ya tenes una cuenta? Iniciá sesión
+            <a v-on:click="$emit('menuEvent','login')">acá</a>
+          </div>
         </form>
       </div>
     </div>
@@ -60,5 +62,6 @@ methods: {
 </script>
 
 <style scoped>
+@import "../assets/css/styles.css";
 @import "../assets/css/modal.css";
 </style>
