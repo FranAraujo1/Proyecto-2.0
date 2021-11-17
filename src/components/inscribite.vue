@@ -39,26 +39,21 @@
 <script>
 export default {
   name: "inscribite",
-  methods: {},
+  methods: {
+/*    altaNombre() {
+       axios.post("http://localhost:5000/api/v1/nombre"),
+           {
+             name: this.name,
+           }
+    }*/
+  },
   data () {
     return {
      unite: "¡Unite a nosotros hoy! Crea tu cuenta completando la información de abajo.",
     }
   }
 }
-data() {
-  return {
-    name: "",
-  }
-},
-methods: {
-  altaNombre() {
-    axios.post("http://localhost:5000/api/v1/nombre",
-        {
-          name: this.name,
-        }
-  }
-}
+
 </script>
 
 <style scoped>
